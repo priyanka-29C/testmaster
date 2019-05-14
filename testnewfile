@@ -1,0 +1,15 @@
+//Test Github
+import java.io.*;
+
+public class fileOutputStreamEx{
+	public static void main(String []args){
+		try{
+		     FileOutputStream fout = new FileOutputStream("javaio.txt");
+		     fout.write(65);
+	             fout.close();
+		     System.out.println("Success");
+		}catch(Exception e){
+		     System.out.println(e);
+		}
+	}
+}
